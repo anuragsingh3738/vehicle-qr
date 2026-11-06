@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Parking Notice - DL4CBE3597</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 antialiased min-h-screen flex items-center justify-center p-4 selection:bg-amber-300 selection:text-slate-900">
+
+  <!-- Mobile Card Container -->
+  <div class="w-full max-w-[390px] rounded-[28px] shadow-2xl overflow-hidden border border-slate-200/80 bg-white">
+    
+    <!-- Top Dark Header -->
+    <header class="bg-[#111827] text-white pt-6 pb-6 px-5 text-center relative flex flex-col items-center">
+      
+      <!-- Yellow Notice Pill Badge -->
+      <div class="inline-flex items-center gap-1.5 bg-amber-400 text-slate-950 text-[11px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-sm mb-3">
+        <i class="fa-solid fa-triangle-exclamation text-xs"></i>
+        <span>Parked Vehicle Contact Notice</span>
+      </div>
+
+      <!-- Owner Name -->
+      <h1 class="text-2xl sm:text-[26px] font-black tracking-tight text-white uppercase leading-tight">
+        ANURAG SINGH
+      </h1>
+
+      <!-- Vehicle Number Badge -->
+      <div class="mt-3 inline-flex items-center gap-1.5 px-3 py-1 bg-slate-900/90 rounded-xl border border-slate-700/80 text-xs font-mono shadow-inner">
+        <i class="fa-solid fa-id-badge text-amber-400 text-xs mr-0.5"></i>
+        <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">VEHICLE:</span>
+        <span class="bg-blue-600 text-white text-[9px] font-black px-1.5 py-0.5 rounded leading-none">IND</span>
+        <span class="text-white font-black tracking-wider text-sm ml-0.5">DL4CBE3597</span>
+      </div>
+
+    </header>
+
+    <!-- White Card Body -->
+    <main class="p-5 sm:p-6 space-y-4">
+      
+      <!-- Polite Obstruction Message Box -->
+      <div class="bg-amber-50/90 border border-amber-200/80 p-4 rounded-2xl flex items-start gap-3">
+        <div class="w-5 h-5 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center text-[10px] font-black shrink-0 mt-0.5 shadow-xs">
+          <i class="fa-solid fa-exclamation"></i>
+        </div>
+        <p class="text-xs text-amber-950 font-medium leading-relaxed">
+          If this car is blocking your pathway or causing an obstruction, please tap any button below to connect with me immediately. I will move it promptly.
+        </p>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="space-y-3 pt-1">
+        
+        <!-- Button 1: Direct Phone Call -->
+        <a href="tel:+917529961646" 
+           class="w-full flex items-center justify-between p-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white transition-all duration-150 shadow-md shadow-blue-500/20 group">
+          <div class="flex items-center gap-3">
+            <span class="w-10 h-10 rounded-xl bg-blue-500/90 flex items-center justify-center text-sm shadow-inner group-hover:bg-blue-500">
+              <i class="fa-solid fa-phone"></i>
+            </span>
+            <div class="text-left">
+              <div class="font-bold text-sm leading-tight">Call Owner Directly</div>
+              <div class="text-[11px] text-blue-100/90 font-medium mt-0.5">+91 7529961646</div>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-blue-200 pr-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+        </a>
+
+        <!-- Button 2: WhatsApp Chat -->
+        <a href="https://wa.me/917529961646?text=Hi%20Anurag%2C%20your%20car%20(DL4CBE3597)%20is%20parked%20and%20needs%20to%20be%20moved.%20Please%20check." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="w-full flex items-center justify-between p-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] text-white transition-all duration-150 shadow-md shadow-emerald-500/20 group">
+          <div class="flex items-center gap-3">
+            <span class="w-10 h-10 rounded-xl bg-emerald-500/90 flex items-center justify-center text-base shadow-inner group-hover:bg-emerald-500">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+            </span>
+            <div class="text-left">
+              <div class="font-bold text-sm leading-tight">Send WhatsApp Alert</div>
+              <div class="text-[11px] text-emerald-100/90 font-medium mt-0.5">Pre-filled parking message</div>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-emerald-200 pr-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+        </a>
+
+        <!-- Button 3: Instagram Direct -->
+        <a href="https://instagram.com/anurag_singh_3738" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="w-full flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-amber-500 via-rose-500 to-purple-600 hover:opacity-95 active:scale-[0.98] text-white transition-all duration-150 shadow-md shadow-rose-500/20 group">
+          <div class="flex items-center gap-3">
+            <span class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center text-sm shadow-inner group-hover:bg-white/25">
+              <i class="fa-brands fa-instagram text-lg"></i>
+            </span>
+            <div class="text-left">
+              <div class="font-bold text-sm leading-tight">Instagram Direct</div>
+              <div class="text-[11px] text-rose-100 font-medium mt-0.5">@anurag_singh_3738</div>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-rose-200 pr-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+        </a>
+
+        <!-- Button 4: Save Contact (.vcf) -->
+        <button onclick="downloadVCard()" 
+                type="button"
+                class="w-full flex items-center justify-between p-3.5 rounded-2xl bg-slate-50 hover:bg-slate-100 active:scale-[0.98] text-slate-800 transition-all duration-150 border border-slate-200 shadow-xs group">
+          <div class="flex items-center gap-3">
+            <span class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-slate-700 text-sm shadow-xs group-hover:border-slate-300">
+              <i class="fa-solid fa-address-book text-slate-700"></i>
+            </span>
+            <div class="text-left">
+              <div class="font-bold text-sm leading-tight text-slate-900">Save Contact to Phone</div>
+              <div class="text-[11px] text-slate-500 font-medium mt-0.5">Downloads Anurag's .vcf card</div>
+            </div>
+          </div>
+          <i class="fa-solid fa-download text-xs text-slate-400 pr-1 group-hover:translate-y-0.5 transition-transform"></i>
+        </button>
+
+      </div>
+
+      <!-- Card Footer -->
+      <footer class="text-center pt-2 pb-1">
+        <p class="text-[11px] text-slate-400 font-medium tracking-wide">
+          Thank you for your patience and cooperation!
+        </p>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <!-- JavaScript to trigger VCF Contact Card Download -->
+  <script>
+    const OWNER_NAME = "Anurag Singh";
+    const VEHICLE_NO = "DL4CBE3597";
+    const PHONE_NUMBER = "+917529961646";
+    const INSTAGRAM_HANDLE = "anurag_singh_3738";
+
+    // Formatted standard vCard file content
+    const VCARD_CONTENT = 
+`BEGIN:VCARD
+VERSION:3.0
+N:Singh;Anurag;;;
+FN:Anurag Singh
+ORG:Vehicle Owner (${VEHICLE_NO})
+TEL;TYPE=CELL,VOICE:${PHONE_NUMBER}
+NOTE:Owner of vehicle ${VEHICLE_NO}. Contact for parking assistance.
+URL;TYPE=WhatsApp:https://wa.me/917529961646?text=Hi%20Anurag%2C%20your%20car%20(${VEHICLE_NO})%20needs%20to%20be%20moved.
+URL;TYPE=Instagram:https://instagram.com/${INSTAGRAM_HANDLE}
+END:VCARD`;
+
+    function downloadVCard() {
+      const blob = new Blob([VCARD_CONTENT], { type: "text/vcard;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const tempLink = document.createElement("a");
+      tempLink.href = url;
+      tempLink.setAttribute("download", `Anurag_Singh_Vehicle_${VEHICLE_NO}.vcf`);
+      document.body.appendChild(tempLink);
+      tempLink.click();
+      document.body.removeChild(tempLink);
+      URL.revokeObjectURL(url);
+    }
+  </script>
+
+</body>
+</html>
